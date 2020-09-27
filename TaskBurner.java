@@ -1,10 +1,11 @@
 import java.util.List;
+import java.util.LinkedList;
 
 class TaskBurner {
-    private List<String> tasks;
+    private static List<String> tasks;
 
     public static void main(String[] args) {
-        System.out.println("Hello, world!");
+        tasks = new LinkedList<String>();
     }
 
     private void addTask(String taskName) {
